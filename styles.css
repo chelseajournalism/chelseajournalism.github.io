@@ -9,7 +9,7 @@
 .content-item {
 	/*background: #eee;*/
 	display: inline-flex;
-	height: 170px;
+	height: 100%;
 	margin: 5px;
 	width: 49%; /* for large screens, 2 columns. */
 }
