@@ -1,2 +1,3 @@
-# chelseajournalism.github.io
-Chelsea Lee Portfolio website
+# Chelsea Lee Portfolio website
+
+https://chelseajournalism.github.io/
