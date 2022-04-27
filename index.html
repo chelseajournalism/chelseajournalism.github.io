@@ -1,7 +1,249 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <title>Darren</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+    <!-- define charset so firefox can see the shrug emoji -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- Site Title -->
+      <div class="content-title-container" id="main-title-container">
+        <div class="title">Chelsea Lee</div>
+        <div class="subtitle">¯\_(ツ)_/¯</div>
+      </div>
+
+      <!-- Intro -->
+      <div class="intro-container">
+        <div class="profile-pic-container">
+          <img src="./images/profile.jpg" id="profile-pic" onmouseover="this.src='./images/profile2.jpg';" onmouseout="this.src='./images/profile.jpg';"/>
+        </div>
+        <div class="intro-text-container">
+          <div class="intro-text">
+            <strong>Hi!</strong> My name is Darren. I like puzzles, frisbee, animals, games, and other things too.
+            <div class="intro-text-break"></div>
+            I am currently a Software Engineer at Google.
+            I graduated from <a href="https://berkeley.edu/">UC Berkeley</a> with a BS in <a href="https://eecs.berkeley.edu/">EECS</a> in 2019.
+          </div>
+        </div>
+        <div class="links-container">
+          <div class="link-item">
+            <div class="link-item-name">Email:</div>
+            <div class="link-item-link">dleemagic002@gmail.com</div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-name">Github:</div>
+            <div class="link-item-link">
+              <a href="https://github.com/darrenlee2">/darrenlee2</a>
+            </div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-name">LinkedIn:</div>
+            <div class="link-item-link">
+              <a href="https://linkedin.com/in/darrenlee2">/in/darrenlee2</a>
+            </div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-name">Resume:</div>
+            <div class="link-item-link">
+              <a href="./resume-2021-09-21.pdf">2021-09-21</a>
+            </div>
+          </div>
+          <div class="link-item">
+            <div class="link-item-name">Puzzle Resume:</div>
+            <div class="link-item-link">
+              <a href="https://docs.google.com/document/d/1qnbXq7HaUbTyjy4Xxoj9201SDFYhPG3NKiELKpuEskU/edit?usp=sharing">Doc</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr/>
+
+      <!-- Projects -->
+      <div class="content-title-container" id="project-title-container">
+        <div class="content-title" id="project-title">Projects</div>
+        <div class="content-subtitle" id="project-subtitle">
+          mostly CS, but maybe some other random things too
+        </div>
+      </div>
+      <div class="content-container">
+        <!-- Pixar Puzzle Hunt -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/darocaro.gif" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="https://darocaro.github.io/">DaroCaro's Pixar Puzzle Hunt</a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Firebase; Javascript, HTML, CSS | Dec 2020
+            </div>
+            <div class="content-item-text-description">
+              Designed + built a 20+ puzzle Puzzle Hunt from scratch with my SO. 1500+ visitors / 500+ teams. 3+ month project involving puzzle design / writing / testing, backend server + Firestore for answer checking / scoreboard / team data / logins, web design, and even an interactive drawing tool.
+            </div>
+          </div>
+        </div>
+        <!-- Mastering Mastermind -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/126.gif" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="./projects/mastermind.pdf">Mastering Mastermind</a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Python | Apr 2018
+            </div>
+            <div class="content-item-text-description">
+              My EECS 126 final project team applied <a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Markov Chain Monte Carlo</a> sampling to the classic game of Mastermind. For fun, we got our algorithm to play an image-guessing game. <a href="./projects/mastermind.pdf">Project report here</a>.
+            </div>
+          </div>
+        </div>
+        <!-- ynpm search -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/ynpm.jpg" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              ynpm search
+            </div>
+            <div class="content-item-text-subtitle">
+              Javascript/Node.js, HTML, CSS | Jun 2017
+            </div>
+            <div class="content-item-text-description">
+              <a href="https://www.yahoo.com/">Yahoo!</a> summer internship project. Redesigned and rebuilt a developer-facing search website for internal and external <a href="https://www.npmjs.com/">npm modules</a>.
+            </div>
+          </div>
+        </div>
+        <!-- Easy Urban Dictionary Lookup -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/urbandict.jpg" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="https://chrome.google.com/webstore/detail/easy-urban-dictionary-loo/jpnfkdokcadnkpmpfjbblfjjokffpbio">
+                Urban Dictionary Chrome Extension 
+              </a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Javascript/jQuery, HTML, CSS | Jan 2017
+            </div>
+            <div class="content-item-text-description">
+              Built and released an elegant <a href="https://chrome.google.com/webstore/category/extensions">chrome extension</a> that allows users to easily view <a href="http://www.urbandictionary.com/">Urban Dictionary</a> definitions as they browse the web. 
+            </div>
+          </div>
+        </div>
+        <!-- Scheme Interpreter -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/schemeart.jpg" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              Scheme Interpreter
+            </div>
+            <div class="content-item-text-subtitle">
+              Python, Scheme | Nov 2016
+            </div>
+            <div class="content-item-text-description">
+              Created a basic <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme</a> interpreter in Python. For fun, I used Scheme to randomly generate recursive art that won 2nd place (out of 32 entries) in <a href="https://cs61a.org/">CS61A</a>'s Scheme Recursive Art Contest.
+            </div>
+          </div>
+        </div>
+        <!-- Handwritten Digit Recognizer -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/digits.jpg" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              Handwritten Digit Recognizer
+            </div>
+            <div class="content-item-text-subtitle">
+              Octave | Jul 2016
+            </div>
+            <div class="content-item-text-description">
+              My first exposure to ML! Developed an algorithm to recognize handwritten digits using a neural network with Octave while self-studying <a href="https://www.coursera.org/learn/machine-learning">Stanford’s Coursera course</a>.
+            </div>
+          </div>
+        </div>
+        <!-- Colorbox -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/colorbox.jpg" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              Colorbox
+            </div>
+            <div class="content-item-text-subtitle">
+              Swift/SpriteKit | Jul 2015
+            </div>
+            <div class="content-item-text-description">
+              Designed and created an original iPhone game called ColorBox from scratch using Swift and <a href= "https://developer.apple.com/reference/spritekit">SpriteKit</a>. 
+            </div>
+          </div>
+        </div>
+        <!-- Chelsea's Dog Resort -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/dogs.jpg" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="http://chelseasdogresort.wixsite.com/dogs">
+                Chelsea's Dog Resort
+              </a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Wix Website Builder | Jan 2015
+            </div>
+            <div class="content-item-text-description">
+              Designed and created a beautiful website to for our family dog sitting business. Co-founded the business with my sister, Chelsea.
+            </div>
+          </div>
+        </div>
+        <!-- Japanese Snow Monkeys -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/monkeys.jpg" class="content-item-image"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="https://www.youtube.com/watch?v=pH8k51d99iI">
+                Japanese Snow Monkey Adventure!
+                </a>
+            </div>
+            <div class="content-item-text-subtitle">
+              Japan Trip | Jun 2015
+            </div>
+            <div class="content-item-text-description">
+              There's a <a href="http://en.jigokudani-yaenkoen.co.jp/">Snow Monkey Park</a> in Japan where snow monkeys roam free! <a href="https://www.youtube.com/watch?v=pH8k51d99iI">[video]</a>
+              <br/>
+              Also, we went on an Australia trip in 2011 where I got to meet wallabies in <a href="http://www.featherdale.com.au/">Featherdale Wildlife Park!</a> <a href="./images/wallaby.jpg">[pic]</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <!-- Footer -->
+      <div class="footer-container">
+        <div class="footer-item">
+          Thanks for visiting!
+        </div>
+        <div class="footer-item">
+          <a href="https://github.com/darrenlee2/darrenlee2.github.io">Github code here.</a>
+        </div>
+        <div class="footer-item">
+          website last updated: 2021-09-19
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
