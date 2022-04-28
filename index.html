@@ -28,6 +28,12 @@
       .instagram-text-container {
         max-width: 50%;
       }
+      @media all and (max-width: 1080px) {
+        #vid {
+          width: 300px;
+          height: 169px;
+        }
+      }
     </style>
     
     <!-- Include jquery -->
@@ -160,7 +166,7 @@
         <!-- Pick-up lines -->
         <div class="content-item" id="vid-highlight">
           <div class="content-item-image-container" id="vid-image-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kOK16mpJ9_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/kOK16mpJ9_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="content-item-text-container">
             <div class="content-item-text-title">
