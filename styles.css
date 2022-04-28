@@ -4,7 +4,7 @@
 	margin: 10px 12px 10px 12px;
 }
 
-#nav-item a {
+.nav-item a {
 	background-color: none;
 	text-decoration: none;
 	color: inherit;
@@ -14,7 +14,7 @@
 	transition: background-color 100ms;
 }
 
-#nav-item a:hover {
+.nav-item a:hover {
 	background-color: #91d6ff; 
 	text-decoration: none;
 	-webkit-transition: background-color 100ms;
@@ -95,12 +95,19 @@
 	font-size: 175%;
 }
 
-.content-title-container {
+title-container {
 	align-items: center;
 	display: flex;
  	flex-direction: row;
  	margin: 5px 5px 25px 5px;
 	justify-content: space-between;
+}
+
+.content-title-container {
+	align-items: center;
+	display: flex;
+ 	flex-direction: column;
+ 	margin: 5px 5px 25px 5px;
 }
 
 .content-subtitle {
