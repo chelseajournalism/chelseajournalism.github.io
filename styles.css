@@ -1,5 +1,12 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
 
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
 .nav-item {
 	margin: 10px 12px 10px 12px;
 }
@@ -117,6 +124,9 @@
 }
 
 .footer-container {
+	position:absolute;
+	bottom:0;
+	width:100%;
 	align-items: center;
 	display: flex;
  	flex-direction: column;
@@ -204,6 +214,8 @@ hr {
 	margin: auto;  /* centers stuff */
 	max-width: 1500px;
 	padding: 10px;
+	min-height: 100%;
+	position:relative;
 }
 
 .profile-pic-container {
