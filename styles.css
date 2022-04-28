@@ -1,8 +1,12 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
 
-/* a {
+.nav-item {
+	margin: 10px 12px 10px 12px;
+}
+
+#nav-item a {
 	background-color: none;
-	text-decoration: underline;
+	text-decoration: none;
 	color: inherit;
 	-webkit-transition: background-color 100ms;
 	-moz-transition: background-color 100ms;
@@ -10,23 +14,19 @@
 	transition: background-color 100ms;
 }
 
-a:hover {
+#nav-item a:hover {
 	background-color: #91d6ff; 
 	text-decoration: none;
 	-webkit-transition: background-color 100ms;
 	-moz-transition: background-color 100ms;
 	-o-transition: background-color 100ms;
 	transition: background-color 100ms;
-} */
+}
 
 .content-container, .nav-row {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-}
-
-.nav-item {
-	margin: 10px 12px 10px 12px;
 }
 
 .content-item {
