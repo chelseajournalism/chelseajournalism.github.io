@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
 
-a {
+/* a {
 	background-color: none;
 	text-decoration: underline;
 	color: inherit;
@@ -11,13 +11,13 @@ a {
 }
 
 a:hover {
-	background-color: #91d6ff; /* a nice shade of blue */
+	background-color: #91d6ff; 
 	text-decoration: none;
 	-webkit-transition: background-color 100ms;
 	-moz-transition: background-color 100ms;
 	-o-transition: background-color 100ms;
 	transition: background-color 100ms;
-}
+} */
 
 .content-container {
 	display: flex;
