@@ -98,8 +98,9 @@
 .content-title-container {
 	align-items: center;
 	display: flex;
- 	flex-direction: column;
+ 	flex-direction: row;
  	margin: 5px 5px 25px 5px;
+	justify-content: space-between;
 }
 
 .content-subtitle {
