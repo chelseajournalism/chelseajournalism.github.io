@@ -4,7 +4,7 @@
 	margin: 10px 12px 10px 12px;
 }
 
-.nav-item a {
+.nav-item a, .title a {
 	background-color: none;
 	text-decoration: none;
 	color: inherit;
@@ -14,7 +14,7 @@
 	transition: background-color 100ms;
 }
 
-.nav-item a:hover {
+.nav-item a:hover, .title a:hover {
 	background-color: #91d6ff; 
 	text-decoration: none;
 	-webkit-transition: background-color 100ms;
