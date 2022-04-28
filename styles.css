@@ -37,6 +37,11 @@
 	justify-content: center;
 }
 
+.content-item-badge-container {
+  max-width: 70%;
+  margin: 15px;
+}
+
 .content-item-text-container {
 	align-items: flex-start;
 	display: inline-flex;
