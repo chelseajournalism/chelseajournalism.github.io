@@ -19,10 +19,14 @@ a:hover {
 	transition: background-color 100ms;
 } */
 
-.content-container {
+.content-container, .nav-row {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+}
+
+.nav-item {
+	margin: 10px 12px 10px 12px;
 }
 
 .content-item {
