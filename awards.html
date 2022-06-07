@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Chelsea Lee Awards</title>
+    
+    <!-- Include CSS styling -->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <style>
+      .instagram-container {
+        flex-grow: 1;
+        margin: 5px;
+      }
+    </style>
+    
+    <!-- Include jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.js"></script> 
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- Header -->
+      <div data-include="header"></div>
+
+      <!-- Posts -->
+      <div class="content-container">
+        
+        <!-- Pick-up lines -->
+        <div class="content-item" id="vid-highlight">
+          <div class="content-item-image-container" id="vid-image-container">
+            <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/kOK16mpJ9_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="https://www.youtube.com/watch?v=kOK16mpJ9_I">
+                Epic staffers' Worst pick-up lines
+              </a>
+            </div>
+            <div class="content-item-text-subtitle">
+              <strong>VIDEOGRAPHY</strong> | Feb. 1, 2022
+            </div>
+            <div class="content-item-text-description">
+              In the spirit of Valentine's day, I tried to pick up students using student-submitted pick-up lines.
+              <br/>
+              I won a JEA NorCal 2022 Annual Contest Honorable Mention for Arts & Entertainment Video for this video.
+            </div>
+            
+            <!-- JEA Norcal Honorable Mention badge -->
+            <div class="content-item-badge-container">
+              <a href="https://jeanc.org/">
+                <img src="./images/jea-norcal.png" class="content-item-badge" id="jea-badge"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Footer -->
+      <div data-include="footer"></div>
+    </div>
+  </body>
+</html>
