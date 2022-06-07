@@ -9,6 +9,39 @@
         flex-grow: 1;
         margin: 5px;
       }
+      #sno-badge {
+        max-width: 200px;
+      }
+      #jea-badge {
+        max-width: 200px;
+      }
+      .content-item-badge:hover {
+        opacity: 70%;
+      }
+      #vid-highlight {
+        width: 98%;
+      }
+      #vid-image-container {
+        width: 50%;
+        align-items: center;
+      }
+      .content-container, .content-item {
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .instagram-text-container {
+        max-width: 50%;
+      }
+      .content-item-image-container {
+        height: 100%;
+        max-width: 100%;
+      }
+      @media all and (max-width: 1080px) {
+        #vid {
+          width: 300px;
+          height: 169px;
+        }
+      }
     </style>
     
     <!-- Include jquery -->
@@ -23,6 +56,34 @@
 
       <!-- Posts -->
       <div class="content-container">
+        
+        <!-- Best of SNO electrical boxes -->
+        <div class="content-item">
+          <div class="content-item-image-container">
+            <img src="./images/ElectricalBoxes.jpeg" class="content-item-image" id="power-box-img"/>
+          </div>
+          <div class="content-item-text-container">
+            <div class="content-item-text-title">
+              <a href="https://lhsepic.com/11581/features/student-artists-paint-life-into-san-joses-streets/">
+                Best of SNO: Student artists paint life into San Jose’s streets
+              </a>
+            </div>
+            <div class="content-item-text-subtitle">
+              <strong>WRITING</strong> | Dec. 29, 2021
+            </div>
+            <div class="content-item-text-description">
+              Features: How San Jose student artists spruce up neighborhood streets by painting electrical boxes.
+              <br/>
+              I won a <a href="https://bestofsno.com/">Best of SNO</a> 'Excellence in Writing' award for this story.
+            </div>
+            
+            <div class="content-item-badge-container">
+              <a href="https://bestofsno.com/54575/arts-entertainment/student-artists-paint-life-into-san-joses-streets/">
+                <img src="./images/bestofsno.png" class="content-item-badge" id="sno-badge"/>
+              </a>
+            </div>
+          </div>
+        </div>
         
         <!-- Pick-up lines -->
         <div class="content-item" id="vid-highlight">
